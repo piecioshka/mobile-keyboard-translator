@@ -1,8 +1,7 @@
 {
-    "private": true,
     "name": "mobile-keyboard-translator",
-    "description": "TODO",
-    "version": "0.0.0",
+    "description": "Translate phone number with letters to only with numbers",
+    "version": "1.0.0",
     "license": "MIT",
     "author": {
         "name": "Piotr Kowalski",
@@ -10,15 +9,19 @@
         "url": "https://piecioshka.pl/"
     },
     "scripts": {
-        "clear": "rm -rf dist/ coverage/",
+        "clear": "rm -rf coverage/",
         "clear:all": "rm -rf node_modules/ && npm run clear",
         "test": "npm run test:unit",
         "test:unit": "jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json",
         "coverage": "istanbul cover jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json",
-        "count": "find . -name '*.js' -not -path './node_modules/*' | xargs wc -l | sort -r",
-        "lint": "eslint ./ ; exit 0"
+        "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls -v",
+        "count": "find . -name '*.js' -not -path './node_modules/*' -not -path './coverage/*' | xargs wc -l | sort -r",
+        "lint": "eslint ./src/ ; exit 0"
     },
-    "dependencies": {},
+    "dependencies": {
+        "commander": "^2.11.0",
+        "coveralls": "^3.0.0"
+    },
     "devDependencies": {
         "eslint": "^4.4.1",
         "eslint-config-piecioshka": "^2.0.0",
@@ -27,6 +30,26 @@
     },
     "repository": {
         "type": "git",
-        "url": ""
-    }
+        "url": "https://github.com/piecioshka/mobile-keyboard-translator.git"
+    },
+    "files": [
+        ".bin",
+        "src",
+        "package.json",
+        "README.md"
+    ],
+    "keywords": [
+        "mobile",
+        "keyboard",
+        "translator",
+        "phone",
+        "number",
+        "letters",
+        "letter",
+        "convert",
+        "cast",
+        "cli",
+        "commonjs"
+    ],
+    "main": ".bin/cli.js"
 }

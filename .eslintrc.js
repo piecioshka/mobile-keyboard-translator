@@ -5,15 +5,17 @@ module.exports = {
     env: {
         es6: true,
         // browser: true,
-        // node: true,
-        // commonjs: true,
+        node: true,
+        commonjs: true,
         // amd: true,
         // jquery: true,
         jasmine: true
     },
 
     // http://eslint.org/docs/rules/
-    rules: {},
+    rules: {
+        'no-implicit-globals': ['off']
+    },
 
     // List of global variables.
     globals: {}
