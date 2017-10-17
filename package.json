@@ -1,7 +1,7 @@
 {
     "name": "mobile-keyboard-translator",
     "description": "Translate phone number with letters to only with numbers",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "author": {
         "name": "Piotr Kowalski",
@@ -51,5 +51,6 @@
         "cli",
         "commonjs"
     ],
-    "main": ".bin/cli.js"
+    "main": "src/index.js",
+    "bin": ".bin/cli.js"
 }
