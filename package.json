@@ -1,7 +1,7 @@
 {
     "name": "mobile-keyboard-translator",
     "description": "Translate phone number with letters to only with numbers",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "MIT",
     "author": {
         "name": "Piotr Kowalski",
@@ -19,10 +19,10 @@
         "lint": "eslint ./src/ ; exit 0"
     },
     "dependencies": {
-        "commander": "^2.11.0",
-        "coveralls": "^3.0.0"
+        "commander": "^2.11.0"
     },
     "devDependencies": {
+        "coveralls": "^3.0.0",
         "eslint": "^4.4.1",
         "eslint-config-piecioshka": "^2.0.0",
         "istanbul": "^0.4.5",
@@ -31,6 +31,9 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/piecioshka/mobile-keyboard-translator.git"
+    },
+    "bugs": {
+        "url": "https://github.com/piecioshka/mobile-keyboard-translator/issues"
     },
     "files": [
         ".bin",
@@ -51,6 +54,6 @@
         "cli",
         "commonjs"
     ],
-    "main": "src/index.js",
-    "bin": ".bin/cli.js"
+    "main": "./src/index.js",
+    "bin": "./.bin/cli.js"
 }
