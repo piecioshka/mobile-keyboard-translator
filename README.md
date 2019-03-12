@@ -5,7 +5,7 @@
 [![Travis](https://img.shields.io/travis/piecioshka/mobile-keyboard-translator.svg?maxAge=2592000)](https://travis-ci.org/piecioshka/mobile-keyboard-translator)
 [![Coverage Status](https://coveralls.io/repos/github/piecioshka/mobile-keyboard-translator/badge.svg?branch=master)](https://coveralls.io/github/piecioshka/mobile-keyboard-translator?branch=master)
 
-> :hammer: Translate phone number with letters to only with numbers
+:hammer: Translate phone number with letters to only with numbers
 
 ## Usage
 
