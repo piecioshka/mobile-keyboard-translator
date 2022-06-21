@@ -14,7 +14,6 @@
         "test": "npm run test:unit",
         "test:unit": "jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json",
         "coverage": "istanbul cover jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json",
-        "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls -v",
         "count": "find . -name '*.js' -not -path './node_modules/*' -not -path './coverage/*' | xargs wc -l | sort -r",
         "lint": "eslint ./src/"
     },
@@ -22,7 +21,6 @@
         "commander": "^2.19.0"
     },
     "devDependencies": {
-        "coveralls": "^3.0.3",
         "eslint": "^5.15.1",
         "eslint-config-piecioshka": "^2.0.1",
         "istanbul": "^0.4.5",

@@ -3,7 +3,6 @@
 [![npm version](https://badge.fury.io/js/mobile-keyboard-translator.svg)](https://badge.fury.io/js/mobile-keyboard-translator)
 ![](https://img.shields.io/npm/dt/mobile-keyboard-translator.svg)
 [![travis-ci](https://api.travis-ci.com/piecioshka/mobile-keyboard-translator.svg?branch=master)](https://app.travis-ci.com/github/piecioshka/mobile-keyboard-translator)
-[![coverage](https://coveralls.io/repos/github/piecioshka/mobile-keyboard-translator/badge.svg?branch=master)](https://coveralls.io/github/piecioshka/mobile-keyboard-translator?branch=master)
 
 :hammer: Translate phone number with letters to only with numbers
 
@@ -46,7 +45,7 @@ This is mobile keyboard:
     |  *  |  0  |  #  |
     |     |     |     |
     -------------------
-    
+
     Credits: https://rebased.pl/akademia.html
 
 Tool converts ex. `1-800-FLOWERS` to `1-800-3569377`.
