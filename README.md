@@ -1,22 +1,25 @@
-# mobile-keyboard-translator ([npm](https://www.npmjs.com/package/mobile-keyboard-translator))
+# mobile-keyboard-translator
 
+[![node version](https://img.shields.io/node/v/mobile-keyboard-translator.svg)](https://www.npmjs.com/package/mobile-keyboard-translator)
 [![npm version](https://badge.fury.io/js/mobile-keyboard-translator.svg)](https://badge.fury.io/js/mobile-keyboard-translator)
-![download count](https://img.shields.io/npm/dt/mobile-keyboard-translator.svg)
+[![downloads count](https://img.shields.io/npm/dt/mobile-keyboard-translator.svg)](https://www.npmjs.com/package/mobile-keyboard-translator)
+[![license](https://img.shields.io/npm/l/mobile-keyboard-translator.svg)](https://www.npmjs.com/package/mobile-keyboard-translator)
+[![coveralls](https://coveralls.io/repos/github/piecioshka/mobile-keyboard-translator/badge.svg?branch=master)](https://coveralls.io/github/piecioshka/mobile-keyboard-translator?branch=master)
 
 :hammer: Translate phone number with letters to only with numbers
 
 ## Usage
 
-```
-$ npm install mobile-keyboard-translator
-$ mobile-keyboard-translator 1-800-FLOWERS
+```bash
+npm install mobile-keyboard-translator
+mobile-keyboard-translator 1-800-FLOWERS
 1-800-3569377
 ```
 
 ## Help
 
-```
-$ mobile-keyboard-translator -h
+```bash
+mobile-keyboard-translator -h
 
   Usage: mobile-keyboard-translator [options] <number>
 
@@ -53,16 +56,16 @@ Tool converts ex. `1-800-FLOWERS` to `1-800-3569377`.
 
 Use Jasmine to setup unit test:
 
-```
-$ npm test
+```bash
+npm test
 ```
 
 ## Code coverage
 
 Use Istanbul to get code coverage ratio:
 
-```
-$ npm run coverage
+```bash
+npm run coverage
 ```
 
 ## License
