@@ -1,7 +1,7 @@
 {
     "name": "mobile-keyboard-translator",
     "description": "Translate phone number with letters to only with numbers",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "license": "MIT",
     "author": {
         "name": "Piotr Kowalski",
