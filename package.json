@@ -53,5 +53,6 @@
         "commonjs"
     ],
     "main": "./src/index.js",
+    "preferGlobal": true,
     "bin": "./bin/cli.js"
 }

@@ -7,10 +7,15 @@
 
 :hammer: Translate phone number with letters to only with numbers
 
-## Usage
+## Installation
 
 ```bash
-npm install mobile-keyboard-translator
+npm install -g mobile-keyboard-translator
+```
+
+## CLI
+
+```bash
 mobile-keyboard-translator 1-800-FLOWERS
 1-800-3569377
 ```
