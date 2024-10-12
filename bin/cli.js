@@ -2,15 +2,15 @@
 
 'use strict';
 
-var translator = require('../src/index');
-var version = require('../package.json').version;
-var program = require('commander');
+const translator = require('../src/index');
+const version = require('../package.json').version;
+const program = require('commander');
 
 program
     .version(version)
     .arguments('<number>')
-    .action(function (phoneNumber) {
-        let translatedNumber = translator.translate(phoneNumber);
+    .action((phoneNumber) => {
+        const translatedNumber = translator.translate(phoneNumber);
         console.log(translatedNumber);
     })
     .parse(process.argv);

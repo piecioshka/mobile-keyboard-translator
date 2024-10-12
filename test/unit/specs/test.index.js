@@ -1,6 +1,6 @@
 'use strict';
 
-let translator = require('../../../src/index');
+const translator = require('../../../src/index');
 
 describe('General', () => {
     it('should translate phone with letters', () => {

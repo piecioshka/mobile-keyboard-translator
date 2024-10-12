@@ -21,13 +21,11 @@ const letters = Object.values(mobileKeyboardMap)
 
 /**
  * @param {string} char - Single element of phone number.
- * @returns {string} Translated letters to number.
+ * @returns {string|null} Translated letters to number.
  */
 function translateSingleChar(char) {
-    let lowerCaseChar = char.toLowerCase();
-
-    let result = '';
-    let isLetter = letters.includes(lowerCaseChar);
+    const lowerCaseChar = char.toLowerCase();
+    const isLetter = letters.includes(lowerCaseChar);
 
     // If passed char is not letter return that value.
     // Translate only when passed value is a letter.
@@ -36,15 +34,13 @@ function translateSingleChar(char) {
     }
 
     // Stop, after find first match.
-    Object.values(mobileKeyboardMap).some((lettersOnButton, number) => {
-        let status = lettersOnButton.includes(lowerCaseChar);
-        if (status) {
-            result = number;
+    for (let key in mobileKeyboardMap) {
+        if (mobileKeyboardMap[key].includes(lowerCaseChar)) {
+            return key;
         }
-        return status;
-    });
+    }
 
-    return result;
+    return null;
 }
 
 /**

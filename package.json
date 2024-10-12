@@ -34,7 +34,7 @@
         "url": "https://github.com/piecioshka/mobile-keyboard-translator/issues"
     },
     "files": [
-        ".bin",
+        "bin",
         "src",
         "package.json",
         "README.md"
@@ -53,5 +53,5 @@
         "commonjs"
     ],
     "main": "./src/index.js",
-    "bin": "./.bin/cli.js"
+    "bin": "./bin/cli.js"
 }
