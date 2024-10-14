@@ -28,7 +28,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/piecioshka/mobile-keyboard-translator.git"
+        "url": "git+https://github.com/piecioshka/mobile-keyboard-translator.git"
     },
     "bugs": {
         "url": "https://github.com/piecioshka/mobile-keyboard-translator/issues"
@@ -53,6 +53,7 @@
         "commonjs"
     ],
     "main": "./src/index.js",
-    "preferGlobal": true,
-    "bin": "./bin/cli.js"
+    "bin": {
+        "mobile-keyboard-translator": "bin/cli.js"
+    }
 }
