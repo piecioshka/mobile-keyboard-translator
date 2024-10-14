@@ -58,15 +58,11 @@ Tool converts ex. `1-800-FLOWERS` to `1-800-3569377`.
 
 ## Unit tests
 
-Use Jasmine to setup unit test:
-
 ```bash
 npm test
 ```
 
 ## Code coverage
-
-Use Istanbul to get code coverage ratio:
 
 ```bash
 npm run coverage
