@@ -6,7 +6,7 @@
 [![license](https://img.shields.io/npm/l/mobile-keyboard-translator.svg)](https://piecioshka.mit-license.org)
 [![github-ci](https://github.com/piecioshka/mobile-keyboard-translator/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/mobile-keyboard-translator/actions/workflows/testing.yml)
 
-:hammer: Translate phone number with letters to only with numbers
+🔨 Translate phone number with letters to only with numbers
 
 ## Installation
 
