@@ -4,6 +4,7 @@
 [![npm version](https://badge.fury.io/js/mobile-keyboard-translator.svg)](https://badge.fury.io/js/mobile-keyboard-translator)
 [![downloads count](https://img.shields.io/npm/dt/mobile-keyboard-translator.svg)](https://www.npmjs.com/package/mobile-keyboard-translator)
 [![license](https://img.shields.io/npm/l/mobile-keyboard-translator.svg)](https://piecioshka.mit-license.org)
+[![github-ci](https://github.com/piecioshka/mobile-keyboard-translator/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/mobile-keyboard-translator/actions/workflows/testing.yml)
 
 :hammer: Translate phone number with letters to only with numbers
 
