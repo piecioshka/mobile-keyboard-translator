@@ -3,6 +3,7 @@
 [![node version](https://img.shields.io/node/v/mobile-keyboard-translator.svg)](https://www.npmjs.com/package/mobile-keyboard-translator)
 [![npm version](https://badge.fury.io/js/mobile-keyboard-translator.svg)](https://badge.fury.io/js/mobile-keyboard-translator)
 [![downloads count](https://img.shields.io/npm/dt/mobile-keyboard-translator.svg)](https://www.npmjs.com/package/mobile-keyboard-translator)
+[![size](https://packagephobia.com/badge?p=mobile-keyboard-translator)](https://packagephobia.com/result?p=mobile-keyboard-translator)
 [![license](https://img.shields.io/npm/l/mobile-keyboard-translator.svg)](https://piecioshka.mit-license.org)
 [![github-ci](https://github.com/piecioshka/mobile-keyboard-translator/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/mobile-keyboard-translator/actions/workflows/testing.yml)
 
