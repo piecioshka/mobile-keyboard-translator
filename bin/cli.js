@@ -22,7 +22,7 @@ if (argv.version) {
 
 // Display help
 if (argv.help || argv._.length === 0) {
-    console.log('Usage: cli [options] <number>');
+    console.log('Usage: mobile-keyboard-translator [options] <number>');
     console.log('');
     console.log('Options:');
     console.log('  -V, --version  output the version number');
