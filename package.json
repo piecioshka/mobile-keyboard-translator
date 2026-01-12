@@ -52,6 +52,9 @@
         "cast",
         "commonjs"
     ],
+    "engines": {
+        "node": ">=10.0.0"
+    },
     "main": "./src/index.js",
     "bin": {
         "mobile-keyboard-translator": "bin/cli.js"
