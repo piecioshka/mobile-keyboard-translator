@@ -12,8 +12,8 @@
         "clear": "rm -rf coverage/",
         "clear:all": "rm -rf node_modules/ && npm run clear",
         "test": "npm run test:unit",
-        "test:unit": "jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json",
-        "coverage": "nyc npm run test && nyc report --reporter=html",
+        "test:unit": "jest",
+        "coverage": "jest --coverage",
         "count": "find . -name '*.js' -not -path './node_modules/*' -not -path './coverage/*' | xargs wc -l | sort -r",
         "lint": "eslint src/"
     },
@@ -21,10 +21,10 @@
         "minimist": "^1.2.8"
     },
     "devDependencies": {
+        "@types/jest": "^30.0.0",
         "eslint": "^5.15.1",
         "eslint-config-piecioshka": "^2.0.1",
-        "jasmine": "^3.3.1",
-        "nyc": "^17.1.0"
+        "jest": "^30.2.0"
     },
     "repository": {
         "type": "git",
@@ -58,5 +58,11 @@
     "main": "./src/index.js",
     "bin": {
         "mobile-keyboard-translator": "bin/cli.js"
+    },
+    "jest": {
+        "testMatch": [
+            "**/test/unit/specs/**/test.*.js"
+        ],
+        "testEnvironment": "node"
     }
 }
