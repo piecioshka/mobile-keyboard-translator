@@ -11,10 +11,8 @@
     "scripts": {
         "clear": "rm -rf coverage/",
         "clear:all": "rm -rf node_modules/ && npm run clear",
-        "test": "npm run test:unit",
-        "test:unit": "jest",
+        "test": "jest --verbose",
         "coverage": "jest --coverage",
-        "count": "find . -name '*.js' -not -path './node_modules/*' -not -path './coverage/*' | xargs wc -l | sort -r",
         "lint": "eslint src/"
     },
     "dependencies": {
