@@ -10,6 +10,8 @@
 
 🔨 Translate phone number with letters to only with numbers
 
+![](demo/mobile-keyboard-translator.gif)
+
 ## CLI
 
 Installation:
