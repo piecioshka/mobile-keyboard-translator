@@ -35,7 +35,8 @@
         "bin",
         "src",
         "package.json",
-        "README.md"
+        "README.md",
+        "LICENSE"
     ],
     "keywords": [
         "cli",
